@@ -1,0 +1,38 @@
+/* This is a comment. */
+// So is this.
+
+/* Here's a comment
+   that spans several
+   source lines. */
+
+Two/*comments in*//***a row***/ here.
+/* This is /* not a nested comment. */
+// Nor is /* this */ one.
+
+{ Not a comment. }
+
+// Word tokens
+Hello world
+Namespace namespace NAMESPACE nAmEsPaCe
+What?
+
+// Character tokens
+'x' 'A' '\'' 'a' '\n' '\t' '\\'
+
+// String tokens
+"Hello, world."
+"Hello,\tworld!"
+"Hello,\n\"world!\""
+"It's Friday!"
+""  "\""
+
+{Number tokens}
+0 1 20 00000000000000000032  31415926
+3.1415926  3.1415926535897932384626433
+0.00031415926E4  0.00031415926e+00004  31415.926e-4
+3141592600000000000000000000000e-30
+
+// Special symbol tokens
++ - * / := . , ; : = <> < <= >= > ( ) [ ] { } } ^ ..
+<<=  >>=
+:=<>=<==>>===
