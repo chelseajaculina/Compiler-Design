@@ -17,7 +17,7 @@ Namespace namespace NAMESPACE nAmEsPaCe
 What?
 
 // Character tokens
-'x' 'A' '\'' 'a' '\n' '\t' '\\'
+hi'x' 'A' '\'' 'a' '\n' '\t' '\\'
 
 // String tokens
 "Hello, world."
